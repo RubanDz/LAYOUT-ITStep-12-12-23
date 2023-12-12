@@ -137,6 +137,7 @@ html {
    .button__secondary {
    background-color: white;
    transition: .5s;
+   
    }
    .button__secondary:hover {
    background-color: aliceblue;
@@ -172,6 +173,10 @@ html {
       font-family: inherit;
       font-size: 18px;
       color: #24252E;
+      
+   }
+   .header__nav-item:hover {
+      font-weight: 700;
    }
    .header__nav_dotred {
       color: red;
@@ -189,7 +194,19 @@ html {
       top: 20px;
       bottom: 20px;
       font-family: inherit;
+      box-shadow: 3px 2px 5px red;
    }
+   /* .header__btn:hover {
+      background-color: black;
+   } */
+   .header__btn_text-decor {
+      text-decoration: none;
+      color: #24252E;
+   }
+   .header__btn_text-decor:hover {
+      font-weight: 700;
+   }
+    
    /*section-first*/
    .main {
       position: relative;
